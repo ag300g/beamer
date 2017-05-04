@@ -1,4 +1,4 @@
-## 从零单排LaTeX:beamer
+## beamer
 ---
 
 #### 用户手册
