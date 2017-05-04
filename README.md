@@ -1,9 +1,9 @@
-##从零单排LaTeX:beamer
+## 从零单排LaTeX:beamer
 ---
 
-####用户手册
+#### 用户手册
 [beamer用户手册](http://www.docin.com/p-633733605.html)
-####最基本代码
+#### 最基本代码
 ```
 \documentclass{beamer}        %使用beamer文档类
 \begin{document}              
@@ -12,7 +12,7 @@ hello, world
 \end{frame}
 \end{document}
 ```
-####我的PPT
+#### 我的PPT
 
 ```
 \documentclass[xcolor=dvipsnames,CJK]{beamer}
@@ -332,15 +332,15 @@ Where $T$ denotes the amount of genes the combination term contained , $t$ denot
 ```
 
 
-####一个比较有用的博客
+#### 一个比较有用的博客
 > [Martin Thoma](http://martin-thoma.com/latex-beamer/)
 
-####自带主题查询
+#### 自带主题查询
 1. [Beamer theme gallery](http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html)
 2. [所有主题和内置颜色与样式的矩阵排列](http://www.hartwork.org/beamer-theme-matrix/)
 3. [分类查询](http://www.docin.com/p-364727492.html)
 
-####一些细节记录
+#### 一些细节记录
 1. `\documentclass[xcolor=dvipsnames]{beamer}`
 > 就是告訴 Beamer 我們準備使用 xcolor 這個套件以進入多彩的
 Beamer (一般 LATEX 也可用 `\usepackage{xcolor}` 引入)。其中
